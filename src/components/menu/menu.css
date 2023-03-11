@@ -1,0 +1,92 @@
+.savings-account {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .savings-account h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .savings-account p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .savings-account button {
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .savings-account button:hover {
+    background-color: #3e8e41;
+    cursor: pointer;
+  }
+  
+  
+  .account-details {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .account-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .account-details p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+
+  
+  .loan-details {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .loan-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .loan-details label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .loan-details input {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .loan-details button {
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .loan-details button:hover {
+    background-color: #3e8e41;
+    cursor: pointer;
+  }
+  

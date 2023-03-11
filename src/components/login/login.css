@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: montserrat;
+  background: linear-gradient(120deg,#FCEBEB,#FCEBEB);
+  height:100vh;
+  overflow: hidden;
+}
+h1{
+  font-family: "verdana";
+  color:#FCEBEB;
+  text-shadow: 5px 5px 10px #A062BD;
+
+}
+  div {
+    margin-bottom: 10px;
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #fff;
+    color:#5a0e59;
+    font-family: "verdana";
+    border: 5px solid #A062BD;
+    border-radius: 4px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+    
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    border: 1px solid #5a0e59;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 300px;
+    font-size: 16px;
+    color:#FCEBEB;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #D6B9E4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #D6B9E4;
+  }
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  button[type="button"] {
+    background-color: transparent;
+    color: #2e599f;
+    border: none;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  button[type="button"]:hover {
+    color: #2e599f;
+  }
+  
+  
